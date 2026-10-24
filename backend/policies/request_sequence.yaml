@@ -1,0 +1,10 @@
+id: "pol_request_sequence"
+agent_id: "any"
+tool_name: "global"
+is_active: true
+rules:
+  sequence_validation:
+    required_previous_steps:
+      process_refund:
+        - "verify_customer_identity"
+        - "validate_order_status"

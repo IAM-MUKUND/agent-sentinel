@@ -1,0 +1,11 @@
+id: "pol_priority_routing"
+agent_id: "support_agent"
+tool_name: "escalate_ticket"
+is_active: true
+rules:
+  priority_routing:
+    high_priority_keywords:
+      - "urgent"
+      - "security"
+      - "fraud"
+    default_priority: "normal"

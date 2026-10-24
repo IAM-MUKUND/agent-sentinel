@@ -1,0 +1,8 @@
+id: "pol_retry_limits"
+agent_id: "agent_any"
+tool_name: "/mock-tools/upload_document"
+is_active: true
+rules:
+  retry_limits:
+    max_attempts_per_session: 3
+    lockout_minutes: 15

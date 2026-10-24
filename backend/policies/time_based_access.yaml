@@ -1,0 +1,11 @@
+id: "pol_time_based_access"
+agent_id: "agent_hr_01"
+tool_name: "/mock-tools/delete_customer"
+is_active: true
+rules:
+  time_window:
+    allowed_hours:
+      start: "09:00"
+      end: "17:00"
+    timezone: "UTC"
+    allowed_days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]

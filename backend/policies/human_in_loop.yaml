@@ -1,0 +1,8 @@
+id: "pol_human_in_loop"
+agent_id: "any"
+tool_name: "escalate_to_admin"
+is_active: false
+rules:
+  human_in_loop:
+    require_approval: true
+    routing: "admin_dashboard"

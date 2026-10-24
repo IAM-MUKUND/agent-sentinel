@@ -1,0 +1,8 @@
+id: "pol_duplicate_request_detection"
+agent_id: "any"
+tool_name: "global"
+is_active: true
+shadow_mode: false
+rules:
+  duplicate_detection:
+    time_window_minutes: 60

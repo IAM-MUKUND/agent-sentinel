@@ -1,0 +1,10 @@
+id: "pol_role_based_access"
+agent_id: "admin_agent"
+tool_name: "global"
+is_active: true
+rules:
+  role_based_access:
+    required_role: "admin"
+    deny_roles:
+      - "guest"
+      - "unverified_user"

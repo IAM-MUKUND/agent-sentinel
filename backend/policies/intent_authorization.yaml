@@ -1,0 +1,11 @@
+id: "pol_intent_authorization"
+agent_id: "conversation_agent"
+tool_name: "route_intent"
+is_active: true
+rules:
+  intent_authorization:
+    allowed_intents:
+      - "order_status"
+      - "refund_request"
+      - "technical_support"
+    block_restricted_intents: true

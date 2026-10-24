@@ -1,0 +1,9 @@
+id: "pol_strict_param_validation"
+agent_id: "order_management_agent"
+tool_name: "cancel_order"
+is_active: true
+shadow_mode: false
+rules:
+  parameter_validation:
+    order_id:
+      allow_pattern: "^ORD[\\-]?\\d+$"

@@ -1,0 +1,10 @@
+id: "pol_agent_tool_permissions"
+agent_id: "agent_any"
+tool_name: "global"
+is_active: true
+rules:
+  allowed_tools:
+    - "/mock-tools/customer"
+    - "/mock-tools/upload_document"
+    - "escalate_to_admin"
+    - "process_refund"

@@ -1,0 +1,9 @@
+id: "pol_fraud_detection_rules"
+agent_id: "RefundAgent"
+tool_name: "process_refund"
+is_active: true
+rules:
+  fraud_detection:
+    max_refunds_per_month: 3
+    velocity_check_hours: 24
+    flag_high_risk_countries: true

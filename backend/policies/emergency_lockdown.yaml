@@ -1,0 +1,13 @@
+id: "pol_emergency_lockdown"
+agent_id: "agent_any"
+tool_name: "global"
+is_active: false # Toggle this to true during an incident to block everything
+rules:
+  emergency_lockdown:
+    enabled: true
+    trigger_incidents:
+      - "Ransomware Detected (Code Red)"
+      - "Mass Data Exfiltration Attempted"
+      - "LLM Prompt Injection Outbreak"
+      - "Database Connection Compromised"
+      - "Rogue Agent Behavior (Infinite Loop)"

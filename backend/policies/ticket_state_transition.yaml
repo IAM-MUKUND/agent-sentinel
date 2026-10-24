@@ -1,0 +1,12 @@
+id: "pol_ticket_state_transition"
+agent_id: "order_management_agent"
+tool_name: "global"
+is_active: true
+shadow_mode: false
+rules:
+  state_transition:
+    block_cancellation_after:
+      - "shipped"
+      - "delivered"
+      - "completed"
+      - "cancelled"

@@ -1,0 +1,8 @@
+id: "pol_customer_eligibility"
+agent_id: "RefundAgent"
+tool_name: "process_refund"
+is_active: true
+rules:
+  eligibility:
+    warranty_validation: true
+    refund_eligibility_window_days: 30

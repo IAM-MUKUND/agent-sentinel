@@ -1,0 +1,12 @@
+id: "pol_audit_and_masking"
+agent_id: "agent_any"
+tool_name: "global"
+is_active: true
+rules:
+  audit_logging:
+    record_execution: true
+    mask_sensitive_parameters:
+      - "password"
+      - "api_key"
+      - "token"
+      - "secret"

@@ -1,0 +1,11 @@
+id: "pol_refund_policy"
+agent_id: "refund_agent"
+tool_name: "process_refund"
+is_active: true
+rules:
+  refund_policy:
+    allowed_reasons:
+      - "defective"
+      - "not_as_described"
+      - "cancelled_before_shipping"
+    require_receipt: true

@@ -1,0 +1,9 @@
+id: "pol_general_rate_limit"
+agent_id: "any"
+tool_name: "global"
+is_active: true
+shadow_mode: false
+rules:
+  rate_limit:
+    max_calls: 5
+    window_seconds: 60

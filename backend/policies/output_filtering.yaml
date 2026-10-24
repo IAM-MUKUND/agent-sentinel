@@ -1,0 +1,11 @@
+id: "pol_output_filtering"
+agent_id: "billing_agent"
+tool_name: "global"
+is_active: true
+shadow_mode: true
+rules:
+  output_filtering:
+    redact_pii:
+      - "ssn"
+      - "credit_card"
+    replacement_string: "[REDACTED]"

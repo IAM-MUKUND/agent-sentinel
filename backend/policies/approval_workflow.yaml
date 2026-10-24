@@ -1,0 +1,8 @@
+id: "pol_approval_workflow"
+agent_id: "agent_hr_01"
+tool_name: "/mock-tools/delete_customer"
+is_active: true
+rules:
+  approval_workflow:
+    requires_approval: true
+    approved_roles: ["admin", "manager"]

@@ -1,0 +1,9 @@
+id: "pol_refund_limits"
+agent_id: "refund_agent"
+tool_name: "process_refund"
+is_active: true
+rules:
+  refund_limits:
+    max_amount_per_transaction: 500.00
+    max_amount_per_month: 2000.00
+    require_manager_approval_above: 1000.00

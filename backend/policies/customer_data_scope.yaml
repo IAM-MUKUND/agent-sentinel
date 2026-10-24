@@ -1,0 +1,8 @@
+id: "pol_customer_data_scope"
+agent_id: "any"
+tool_name: "global"
+is_active: true
+shadow_mode: false
+rules:
+  data_scope:
+    validate_customer_ownership: true

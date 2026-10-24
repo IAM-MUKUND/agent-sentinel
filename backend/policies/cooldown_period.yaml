@@ -1,0 +1,7 @@
+id: "pol_cooldown_period"
+agent_id: "agent_marketing_01"
+tool_name: "/mock-tools/send_email"
+is_active: true
+rules:
+  cooldown_period:
+    wait_seconds_after_success: 120
